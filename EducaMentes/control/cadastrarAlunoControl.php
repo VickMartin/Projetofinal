@@ -43,7 +43,6 @@
      $mensagem = "Aluno(a) cadastrado com sucesso!";
      $status = "success";
 
-     header("Location: view/gerencia.php");
  } else {
      $mensagem = "Erro ao cadastrar Aluno(a)! .";
      $status = "error";
